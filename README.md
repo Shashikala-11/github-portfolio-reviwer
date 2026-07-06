@@ -4,6 +4,12 @@ A developer project designed for performance and clean architecture.
 
 ---
 
+## 🎥 Demo Video
+
+Watch the complete project walkthrough here:
+
+**YouTube:** https://youtu.be/cA1O2Zm5vN4?si=SyPMqvS6zqDKqqhC
+
 ## 🚀 Getting Started
 
 This Python project is optimized for local setup and testing. Follow the steps below to initialize the project environment.
