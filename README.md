@@ -37,69 +37,83 @@
 
 </div>
 
-## Overview
+## ◈ Overview
 
-GitHub Portfolio Reviewer is an AI-assisted application designed to evaluate the quality and completeness of public GitHub portfolios.
+<div align="center">
 
-It analyzes GitHub profiles and their repositories, checks essential development practices, and generates a structured portfolio assessment with a score out of 100.
+### Your GitHub deserves more than a star count.
 
-Rather than evaluating a developer solely through repository count or stars, the project focuses on the engineering practices reflected in their repositories.
+An AI-assisted portfolio reviewer that evaluates repository quality, uncovers missing engineering practices, and turns GitHub activity into actionable insights.
 
-### The problem
+</div>
 
-A GitHub profile may contain multiple projects but still lack the fundamentals that make a developer portfolio professional.
+<br/>
 
-- Incomplete project documentation.
-- Missing repository configuration files.
-- Lack of testing infrastructure.
-- Missing CI/CD workflows.
-- Absence of containerization support.
-
-**The solution:** Automate these checks and turn repository information into actionable portfolio insights.
+<table>
+<tr>
+<td align="center" width="33%">
+<h2>01</h2>
+<b>Analyze</b>
+<br/>
+<sub>Public GitHub repositories</sub>
+</td>
+<td align="center" width="33%">
+<h2>02</h2>
+<b>Evaluate</b>
+<br/>
+<sub>Codebase & engineering practices</sub>
+</td>
+<td align="center" width="33%">
+<h2>03</h2>
+<b>Improve</b>
+<br/>
+<sub>Actionable portfolio insights</sub>
+</td>
+</tr>
+</table>
 
 ---
 
-## Features
+## ◈ Features
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Repository Intelligence
+**01 — Repository Intelligence**
 
-Analyze public repositories and inspect their structure and essential configuration files.
+<sub>Automated inspection of public repositories and project structure.</sub>
 
-### Documentation Assessment
+<br/>
 
-Evaluate README availability and repository documentation practices.
+**02 — Documentation Analysis**
 
-### Development Standards
+<sub>README, LICENSE, and contribution guideline checks.</sub>
 
-Identify missing LICENSE, `.gitignore`, and CONTRIBUTING files.
+<br/>
+
+**03 — Repository Hygiene**
+
+<sub>Identification of missing configuration and essential files.</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### Testing & CI/CD
+**04 — Testing & CI/CD**
 
-Inspect testing infrastructure and continuous integration configurations.
+<sub>Detection of testing infrastructure and automation workflows.</sub>
 
-### Docker Readiness
+<br/>
 
-Check whether repositories include Docker-related configuration.
+**05 — Docker Readiness**
 
-### Portfolio Scoring
+<sub>Inspection of containerization configuration.</sub>
 
-Generate a structured quality score out of 100 using evaluation criteria.
+<br/>
 
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+**06 — AI-Assisted Insights**
 
-### AI-Assisted Feedback
-
-Use optional LLM integration to provide contextual insights alongside rule-based repository evaluation.
+<sub>Optional LLM-powered contextual feedback.</sub>
 
 </td>
 </tr>
@@ -107,32 +121,34 @@ Use optional LLM integration to provide contextual insights alongside rule-based
 
 ---
 
-## Evaluation Framework
-
-The application evaluates repository quality across multiple dimensions.
-
-| Category | Evaluation |
-|:---|:---|
-| Documentation | README availability |
-| Licensing | LICENSE configuration |
-| Repository Hygiene | `.gitignore` |
-| Collaboration | CONTRIBUTING guidelines |
-| Testing | Test infrastructure |
-| Automation | CI/CD workflows |
-| Containerization | Docker configuration |
+## ◈ Portfolio Evaluation
 
 <div align="center">
 
-**Portfolio Quality Score**
+### A measurable view of repository quality.
 
-<img src="https://img.shields.io/badge/Score-0--100-A78BFA?style=for-the-badge&labelColor=161922" />
+<br/>
 
-<sub>The score represents an indicative assessment of repository practices, not a measurement of programming ability.</sub>
+<img src="https://img.shields.io/badge/PORTFOLIO%20SCORE-0--100-A78BFA?style=for-the-badge&labelColor=161922"/>
+
+<br/><br/>
+
+| Evaluation Dimension | Checks |
+|:---|:---|
+| Documentation | README |
+| Configuration | LICENSE, `.gitignore` |
+| Collaboration | CONTRIBUTING |
+| Quality Assurance | Testing |
+| Automation | CI/CD |
+| Infrastructure | Docker |
+
+<br/>
+
+<sub>Rule-based evaluation with optional AI-assisted feedback. The score reflects repository practices, not individual developer ability.</sub>
 
 </div>
 
 ---
-
 ## Architecture
 
 The project follows a modular architecture that separates GitHub data retrieval, repository evaluation, AI integration, and data persistence.
